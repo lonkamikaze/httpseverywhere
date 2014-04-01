@@ -1,0 +1,17 @@
+<rulesetlibrary>
+	<ruleset name="Amazon">
+		<target host="*.amazon.co.uk" />
+		<target host="*.amazon.de" />
+
+		<rule from="^http://"
+		        to="https://"/>
+	</ruleset>
+	<!-- Amazon.com is seriously broken with https -->
+	<!-- ruleset name="Amazon.com">
+		<target host="www.amazon.com" />
+
+		<exclusion pattern="^http://www\.amazon\.com/gp/product/"/>
+		<rule from="^http://www\.amazon\.com/gp/"
+		        to="https://www.amazon.com/gp/"/>
+	</ruleset -->
+</rulesetlibrary>
