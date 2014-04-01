@@ -1,0 +1,6 @@
+<ruleset name="FreeBSD.org">
+	<target host="*.freebsd.org" />
+
+	<rule from="http://"
+	        to="https://"/>
+</ruleset>
