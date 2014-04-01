@@ -1,7 +1,8 @@
 <ruleset name="BSDForen.de">
+	<target host="bsdforen.de" />
 	<target host="*.bsdforen.de" />
 
-	<rule from="http//bsdforen\.de/"
+	<rule from="http://bsdforen\.de/"
 	        to="https://www.bsdforen.de/"/>
 	<rule from="http://([^@:/]*)\.bsdforen\.de/"
 	        to="https://$1.bsdforen.de/"/>
