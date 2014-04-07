@@ -1,0 +1,6 @@
+<ruleset name="fimfiction.net">
+	<target host="*.fimfiction.net" />
+
+	<rule from="^http://"
+	        to="https://"/>
+</ruleset>
